@@ -1,0 +1,51 @@
+:root {
+  --main-blue: #93d3fa;
+  --main-black: #464646;
+}
+
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+Header {
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-blue);
+}
+
+.proph {
+  color: #464646;
+  transform: translateX(12px);
+}
+
+Header a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 10px;
+}
+
+Header a:hover {
+  color: white;
+}
+
+.logoDiv {
+  display: flex;
+  gap: 0;
+  flex-direction: column;
+}
+
+.logo {
+  color: white;
+}
+
+.book {
+  color: var(--main-black);
+}

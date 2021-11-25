@@ -1,0 +1,38 @@
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #93d3fa;
+  text-align: center;
+  line-height: 34px;
+  margin-top: 0;
+}
+
+.layout {
+  text-align: center;
+  margin: 0 auto;
+  width: 350px;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.a {
+  padding: 16px 24px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  width: 222px;
+  height: 52px;
+  background-color: #f9f67b;
+  color: #464646;
+}
+
+.a:hover {
+  cursor: pointer;
+  background-color: #464646;
+  color: #f9f67b;
+  transition: all 0.2s ease-in-out;
+}

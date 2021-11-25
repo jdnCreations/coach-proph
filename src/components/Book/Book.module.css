@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+.layout {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f67b;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.title {
+  font-size: 32px;
+  margin-top: 0;
+  color: #464646;
+}
+
+form {
+  border-radius: 8px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 18px 24px;
+  width: 326px;
+}
+
+form div {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+form input {
+  background-color: #e2e2e2;
+  border: none;
+  border-radius: 4px;
+  height: 32px;
+  margin-bottom: 14px;
+  padding: 4px 12px;
+  outline: none;
+  font-weight: 300;
+}
+
+form select {
+  background-color: #e2e2e2;
+  border: none;
+  border-radius: 4px;
+  height: 32px;
+  margin-bottom: 14px;
+  padding: 4px 12px;
+  outline: none;
+  appearance: none;
+  background-image: ('../../assets/arrow.svg');
+  font-weight: 300;
+}
+/* form input::placeholder {
+  padding: 10px 12px;
+} */
+
+form button {
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  height: 48px;
+  background-color: #93d3fa;
+  color: #464646;
+  font-weight: bold;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: #f9f67b;
+}
+
+form label {
+  color: #464646;
+  font-weight: bold;
+}
+
+span {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+textarea {
+  min-width: 100%;
+  min-height: 80px;
+  max-width: 100%;
+  margin-bottom: 14px;
+  outline: none;
+  background-color: #e2e2e2;
+  border: none;
+  border-radius: 4px;
+  height: 32px;
+  margin-bottom: 14px;
+  padding: 4px 12px;
+  outline: none;
+  font-weight: 300;
+}
